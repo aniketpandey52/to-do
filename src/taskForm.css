@@ -1,0 +1,33 @@
+.page-title {
+    background-color: #83C5BE;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.form-items {
+    padding: 15px;
+}
+
+.inputs {
+    background-color: #ffddd2;
+    border-style: solid;
+    border-color: #006D77;
+    border-radius: 6px;
+    border-width: medium;
+    width: -webkit-fill-available;
+    margin-top: 10px;
+    padding: 5px;
+    color: unset;
+}
+
+.create-button {
+    background-color: #006D77;
+    color: #ffddd2;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 30%;
+    width: 40%;
+}

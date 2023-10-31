@@ -1,3 +1,5 @@
+@import '~inter-ui/inter.css';
+
 .App {
   text-align: center;
 }
@@ -7,32 +9,79 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  height: 100vh; /* Make the app take full height of the viewport */
+}
+
+.title-bar {
+  background-color: #83C5BE;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.icons {
+  color: #006D77;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  color: #ffddd2;
+}
+
+.nav-panel {
+  background-color: #006D77;
+  padding: 20px;
+  width: max-content;
+  ul {
+    list-style: none;
+    padding: 10px;
+    li {
+      margin-bottom: 30px;
+      cursor: pointer;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.nav-list {
+  list-style: none;
+  padding: unset;
+  margin-top: 15px;
+  width: max-content;  
+}
+
+.nav-list-items {
+  padding: 15px;
+}
+
+.body-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.content {
+  padding: 20px;
+  width: 100%;
+  background-color: #ffddd2;
+  color: #006D77;
+  /* Add more styles for your content area as needed */
 }

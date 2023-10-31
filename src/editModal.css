@@ -1,0 +1,13 @@
+.form-items {
+    color: #006d77;
+}
+
+.submit-button {
+    background-color: #006D77;
+    color: #ffddd2;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+}

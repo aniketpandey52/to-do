@@ -1,0 +1,24 @@
+.divider-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .left-pane,
+  .right-pane {
+    width: 50%; /* Each pane takes up 50% of the container width */
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .vertical-line {
+    height: 100%;
+    width: 2px; /* Width of the vertical line */
+    background-color: #006D77; /* Color of the vertical line */
+    margin: 0 20px; /* Margin on both sides of the line */
+  }
+  
